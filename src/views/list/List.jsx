@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import CharacterList from '../../components/charList/CharList';
+import CharacterList from '../../components/charList/charList';
 import { fetchCharacters } from '../../services/fetch';
 
 export default function List() {
